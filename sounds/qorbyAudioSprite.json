@@ -1,0 +1,34 @@
+{
+  "urls": [
+    "qorbyAudioSprite.ogg",
+    "qorbyAudioSprite.m4a",
+    "qorbyAudioSprite.mp3",
+    "qorbyAudioSprite.ac3"
+  ],
+  "sprite": {
+    "gameOver": [
+      0,
+      2037.5510204081634
+    ],
+    "newLevel": [
+      3500,
+      2712.0181405895687
+    ],
+    "smash": [
+      7000,
+      3384.013605442178
+    ],
+    "fall": [
+      11500,
+      346.5306122448979
+    ],
+    "notRed": [
+      13000,
+      89.34240362811785
+    ],
+    "red": [
+      14500,
+      127.1201814058962
+    ]
+  }
+}
