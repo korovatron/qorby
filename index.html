@@ -14,12 +14,27 @@
   <link rel="apple-touch-icon" href="qorbyIcon.png">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>Q*Orby</title>
-  <meta name="description" content="A game inspired by Q*Bert">
+  <title>Q*Orby - Classic Arcade Game | Play Free Online</title>
+  <meta name="description" content="Play Q*Orby, a classic arcade game inspired by Q*Bert. Jump on cubes, avoid enemies, and score points in this retro-style puzzle platformer. Free to play in your browser!">
   <meta name="author" content="Neil Kendall">
+  <meta name="keywords" content="Q*Orby, Q*Bert, arcade game, retro game, puzzle game, platformer, browser game, free game">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.korovatron.co.uk/qorby/">
+  <meta property="og:title" content="Q*Orby - Classic Arcade Game">
+  <meta property="og:description" content="Play Q*Orby, a classic arcade game inspired by Q*Bert. Jump on cubes, avoid enemies, and score points in this retro-style puzzle platformer.">
+  <meta property="og:image" content="https://www.korovatron.co.uk/qorby/qorbyIcon.png">
 
-    <!-- Canonical URL to prevent redirect indexing issues -->
-<link rel="canonical" href="https://www.korovatron.co.uk/qorby/">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.korovatron.co.uk/qorby/">
+  <meta property="twitter:title" content="Q*Orby - Classic Arcade Game">
+  <meta property="twitter:description" content="Play Q*Orby, a classic arcade game inspired by Q*Bert. Jump on cubes, avoid enemies, and score points in this retro-style puzzle platformer.">
+  <meta property="twitter:image" content="https://www.korovatron.co.uk/qorby/qorbyIcon.png">
+
+  <!-- Canonical URL to prevent redirect indexing issues -->
+  <link rel="canonical" href="https://www.korovatron.co.uk/qorby/">
 
 
   <style>
@@ -44,13 +59,29 @@
       -webkit-touch-callout: none;
       user-select: none;
     }
+
+    /* Screen reader only content */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
   </style>
 </head>
 
 <body>
+  <!-- Screen reader accessible content -->
+  <h1 class="sr-only">Q*Orby - Classic Arcade Game</h1>
+  <p class="sr-only">A retro-style puzzle platformer inspired by Q*Bert. Use arrow keys or touch controls to jump on cubes and avoid enemies.</p>
 
   <!--Define HTML5 Canvas Element -->
-  <canvas id="canvas" width="896" height="1024">
+  <canvas id="canvas" width="896" height="1024" aria-hidden="true" role="img" aria-label="Q*Orby game canvas">
     Your browser does not support the HTML5 canvas tag.
   </canvas>
   <script src="howler.min.js"></script>
