@@ -1,7 +1,7 @@
 // sw.js
 // Change the cache name when updating to cause cache refresh on progressive web apps
 
-const CACHE_NAME = 'qorby-cache-2025-08-21-18:57';
+const CACHE_NAME = 'qorby-cache-2026-03-08-00:01';
 const FILES_TO_CACHE = [
   '/qorby/',
   '/qorby/index.html',
